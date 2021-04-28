@@ -1,8 +1,6 @@
 /* -----------------------------------------------
-/* Author : Vincent Garreau  - vincentgarreau.com
-/* MIT license: http://opensource.org/licenses/MIT
-/* Demo / Generator : vincentgarreau.com/particles.js
-/* GitHub : github.com/VincentGarreau/particles.js
+/* Author : Md. Arfan Tahnif 
+/* GitHub : https://github.com/arfan-tahnif/arfan-tahnif/blob/main/particles.js
 /* How to use? : Check the GitHub README
 /* v2.0.0
 /* ----------------------------------------------- */
@@ -1242,7 +1240,7 @@ var pJS = function(tag_id, params){
 
   pJS.fn.vendors.drawShape = function(c, startX, startY, sideLength, sideCountNumerator, sideCountDenominator){
 
-    // By Programming Thomas - https://programmingthomas.wordpress.com/2013/04/03/n-sided-shapes/
+    // By Arfan Tahnif - https://www.facebook.com/md.arfan.tahnif.75873/
     var sideCount = sideCountNumerator * sideCountDenominator;
     var decimalSides = sideCountNumerator / sideCountDenominator;
     var interiorAngleDegrees = (180 * (decimalSides - 2)) / decimalSides;
@@ -1447,8 +1445,8 @@ window.cancelRequestAnimFrame = ( function() {
 } )();
 
 function hexToRgb(hex){
-  // By Tim Down - http://stackoverflow.com/a/5624139/3493650
-  // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
+  // By Arfan Tahnif - https://www.facebook.com/md.arfan.tahnif.75873
+   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
   var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
   hex = hex.replace(shorthandRegex, function(m, r, g, b) {
      return r + r + g + g + b + b;
